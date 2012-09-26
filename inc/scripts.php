@@ -1,8 +1,9 @@
 <?php
 
 /* 
-    Grabbing certain styles and scripts from roots folder so that we don't have to duplicate the files into our child themes directory 
-    Of the files included with roots, the only ones we should need in our child theme directory are css/app.css and js/main.js 
+    Grabbing certain styles and scripts from roots folder so that we don't have to duplicate the files into our child themes directory -
+    Of the files included with roots, the only ones we should need in our child theme directory are css/app.css and js/main.js
+    If you want to further modify functionality of roots, just copy template files into child theme directory and they will trump the originals. 
 */
 
 function roots_child_scripts() {
