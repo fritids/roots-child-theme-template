@@ -19,7 +19,7 @@
         <div class="row">
           <div class="span2">
             <a class="thumbnail" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>">         
-              <?php the_post_thumbnail(); ?>    
+              <?php echo get_the_post_thumbnail($id, 'thumbnail'); ?> 
             </a>
           </div>
           <div class="span6">
