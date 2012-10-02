@@ -39,7 +39,6 @@ function roots_child_excerpt_more($more) {
   	return '&hellip; <a class="btn more-btn" href="' . get_permalink() . '">' . __('Read Moar!', 'roots_child') . '</a>';
 }
 
-add_filter('excerpt_length', 'roots_child_excerpt_length');
 add_filter('excerpt_more', 'roots_child_excerpt_more');
 
 ?>
